@@ -1,0 +1,198 @@
+{
+  "brand_identity": {
+    "name": "frudio",
+    "tagline": "AI-Powered No-Code Web Design for High-Growth Brands",
+    "persona": "E1 Creative Designer — High-craft, result-driven, Swiss Minimalist meets Architectural Precision",
+    "theme": "Light, clean, minimal, bold visual tension and Site-of-the-Day level polish",
+    "forbidden_colors": ["#7351B7", "purple-gradient", "default-blue"],
+    "forbidden_fonts": ["Inter", "Roboto", "Open Sans", "Space Grotesk (for headers)"]
+  },
+  "color_system": {
+    "theme_mode": "light",
+    "background_base": "#FAF9F6",
+    "surface_card": "#FFFFFF",
+    "surface_card_hover": "#F5F3EF",
+    "text_primary": "#111110",
+    "text_secondary": "#5E5D59",
+    "text_muted": "#8E8D8A",
+    "border_subtle": "#E6E4DD",
+    "border_active": "#111110",
+    "primary_accent": "#F04A23",
+    "primary_accent_hover": "#D83A14",
+    "secondary_accent": "#0D2C22",
+    "badge_bg": "#EFECE6",
+    "badge_text": "#111110",
+    "success_state": "#10B981"
+  },
+  "typography": {
+    "headings": {
+      "font_family": "Outfit, sans-serif",
+      "import_url": "https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap",
+      "h1": "text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.05]",
+      "h2": "text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.1]",
+      "h3": "text-xl sm:text-2xl font-semibold tracking-tight",
+      "h4": "text-lg sm:text-xl font-medium"
+    },
+    "body": {
+      "font_family": "Plus Jakarta Sans, sans-serif",
+      "style": "text-base sm:text-lg text-[#5E5D59] leading-relaxed font-normal"
+    },
+    "mono_labels": {
+      "font_family": "JetBrains Mono, monospace",
+      "style": "text-xs uppercase tracking-[0.2em] font-semibold text-[#8E8D8A]"
+    }
+  },
+  "layout_and_spacing": {
+    "container_padding": "px-6 sm:px-10 lg:px-16 max-w-7xl mx-auto",
+    "section_spacing": "py-20 lg:py-32",
+    "gap_system": "gap-6 lg:gap-10",
+    "bento_grid_protocol": "MODE A: TETRIS GRID for portfolio & services showcase (mixing col-span-full, col-span-8, col-span-4 with asymmetric offsets and generous 1px border lines)",
+    "container_border_padding": "All bordered card elements MUST have internal padding p-6 sm:p-8 to avoid text collision"
+  },
+  "motion_and_interactions": {
+    "smooth_scroll": "Lenis (momentum scroll setup in root App component)",
+    "framer_motion_hooks": [
+      "Staggered line-by-line reveal for Hero Headline",
+      "Scroll-triggered fade-up for section titles and grid cards",
+      "3D tilt/perspective rotation on hover for Hero Showcase Frame",
+      "Tab switching layout animations with layoutId"
+    ],
+    "micro_interactions": [
+      "Hover effect on buttons: subtle scale, icon translate-x, contrast inversion",
+      "Hover effect on portfolio cards: image scale 1.05 with border color shift",
+      "Active tab indicator with smooth sliding background"
+    ]
+  },
+  "image_urls": {
+    "hero_showcase": "https://images.unsplash.com/photo-1634084462412-b54873c0a56d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODl8MHwxfHNlYXJjaHw0fHxtaW5pbWFsaXN0JTIwd2ViJTIwZGVzaWduJTIwYWdlbmN5JTIwc3R1ZGlvJTIwcG9ydGZvbGlvJTIwd2Vic2l0ZSUyMHNob3djYXNlfGVufDB8fHx8MTc5MTk4NjUxMHww&ixlib=rb-4.1.0&q=85",
+    "design_system_preview": "https://images.unsplash.com/photo-1558655146-d09347e92766?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODl8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwd2ViJTIwZGVzaWduJTIwYWdlbmN5JTIwc3R1ZGlvJTIwcG9ydGZvbGlvJTIwd2Vic2l0ZSUyMHNob3djYXNlfGVufDB8fHx8MTc5MTk4NjUxMHww&ixlib=rb-4.1.0&q=85",
+    "tech_setup_preview": "https://images.unsplash.com/photo-1688733720228-4f7a18681c4f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTZ8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjB0ZWNoJTIwc3RhcnR1cCUyMG9mZmljZSUyMHdlYiUyMGRlc2lnbiUyMHN0dWRpb3xlbnwwfHx8fDE3OTE5ODY1MTN8MA&ixlib=rb-4.1.0&q=85",
+    "color_grid_preview": "https://images.unsplash.com/photo-1541506618330-7c369fc759b5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODl8MHwxfHNlYXJjaHwyfHxtaW5pbWFsaXN0JTIwd2ViJTIwZGVzaWduJTIwYWdlbmN5JTIwc3R1ZGlvJTIwcG9ydGZvbGlvJTIwd2Vic2l0ZSUyMHNob3djYXNlfGVufDB8fHx8MTc5MTk4NjUxMHww&ixlib=rb-4.1.0&q=85",
+    "testimonial_avatar_1": "https://images.unsplash.com/photo-1676989880361-091e12efc056?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODh8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMGJ1c2luZXNzJTIwZXhlY3V0aXZlJTIwcG9ydHJhaXQlMjBzdHVkaW98ZW58MHx8fHwxNzkxOTg2NTEzfDA&ixlib=rb-4.1.0&q=85",
+    "testimonial_avatar_2": "https://images.unsplash.com/photo-1614786269829-d24616faf56d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODh8MHwxfHNlYXJjaHwyfHxjcmVhdGl2ZSUyMGJ1c2luZXNzJTIwZXhlY3V0aXZlJTIwcG9ydHJhaXQlMjBzdHVkaW98ZW58MHx8fHwxNzkxOTg2NTEzfDA&ixlib=rb-4.1.0&q=85",
+    "testimonial_avatar_3": "https://images.unsplash.com/photo-1584940120505-117038d90b05?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODh8MHwxfHNlYXJjaHw0fHxjcmVhdGl2ZSUyMGJ1c2luZXNzJTIwZXhlY3V0aXZlJTIwcG9ydHJhaXQlMjBzdHVkaW98ZW58MHx8fHwxNzkxOTg2NTEzfDA&ixlib=rb-4.1.0&q=85"
+  },
+  "sections_breakdown": [
+    {
+      "section_id": "header",
+      "name": "Navigation Bar",
+      "type": "Sticky Glassmorphism Header",
+      "features": [
+        "frudio vector logo with custom mark (geometric 'f' inside rounded square)",
+        "Desktop links: Services, Process, Work, Pricing, FAQ",
+        "Pill CTA: 'Start a Project'",
+        "Mobile sheet/hamburger trigger with clean slide animation",
+        "Glass backdrop blur (bg-white/80 backdrop-blur-md border-b border-[#E6E4DD])"
+      ]
+    },
+    {
+      "section_id": "hero",
+      "name": "Hero Section",
+      "type": "Large Kinetic Reveal & 3D Interactive Showcase",
+      "features": [
+        "Eyebrow mono badge: 'NEXT-GEN NO-CODE WEB STUDIO'",
+        "Headline with line-by-line mask reveal: 'High-Converting Websites Built at AI Speed.'",
+        "Subheadline: 'We eliminate traditional 3-month dev cycles. frudio delivers bespoke, result-driven Webflow & Framer websites in days, powered by AI precision.'",
+        "Primary CTA button: 'Get Instant Estimate' (scrolls to calculator/form)",
+        "Secondary CTA button: 'Explore Portfolio' (with arrow hover)",
+        "3D perspective card container holding live mockup frame with spotlight reflection and interactive stat metrics badges ('3.4x Conversion Increase', '10-Day Delivery')"
+      ]
+    },
+    {
+      "section_id": "marquee",
+      "name": "Editorial Marquee",
+      "type": "Slow Drift Kinetic Texture Ribbon",
+      "features": [
+        "Low contrast warm tone strip with top & bottom subtle border",
+        "Drifting items: '⚡ 10-DAY TURNAROUND', '✦ 0 LINES OF CODE', '📈 3.2X AVERAGE CONVERSION RATE', '🎨 AWWWARDS-GRADE FINISH', '🤖 AI-POWERED WORKFLOW'",
+        "Monospace / serif font hybrid with generous spacing"
+      ]
+    },
+    {
+      "section_id": "services",
+      "name": "Services Bento Grid",
+      "type": "Tetris Grid Layout",
+      "features": [
+        "Feature 1 (Large): 'AI-Accelerated Strategy & Copywriting' — Automated content architecture with audience targeting",
+        "Feature 2 (Medium): 'No-Code Architecture (Framer & Webflow)' — Pixel-perfect responsive builds with zero tech debt",
+        "Feature 3 (Medium): 'High-Impact Conversion UX' — Data-backed user flows engineered to capture leads",
+        "Feature 4 (Small): 'Ultra-Fast Performance & SEO' — 99+ Lighthouse scores out of the box",
+        "Feature 5 (Small): 'CMS & Workflow Automation' — Easy content editing and seamless tool integrations"
+      ]
+    },
+    {
+      "section_id": "process",
+      "name": "4-Step Velocity Engine",
+      "type": "Interactive Timeline Cards",
+      "features": [
+        "Step 01: AI Blueprinting & Wireframing (Day 1-2)",
+        "Step 02: High-Craft Visual Design (Day 3-5)",
+        "Step 03: No-Code Engine Build (Day 6-8)",
+        "Step 04: QA, Speed Test & Launch (Day 9-10)"
+      ]
+    },
+    {
+      "section_id": "portfolio",
+      "name": "Work Showcase",
+      "type": "Interactive Filterable Portfolio Grid",
+      "features": [
+        "Category tabs: 'All Projects', 'SaaS', 'E-Commerce', 'Agencies'",
+        "Project cards with high-res clipped image frame, live URL preview badge, performance metrics (+215% ARR, 1.1s load time), and view detail modal/drawer toggle"
+      ]
+    },
+    {
+      "section_id": "pricing",
+      "name": "Transparent Pricing Matrix",
+      "type": "Tiered Pricing with Monthly vs Project Toggle",
+      "features": [
+        "Sprint Tier ($2,900): Single page landing page, 5-day delivery, basic integrations",
+        "Scale Tier ($5,400 - MOST POPULAR): Complete multi-page site, 10-day delivery, custom animations & CMS",
+        "Enterprise Tier ($9,800): Custom web app interface, bespoke motion design, dedicated support"
+      ]
+    },
+    {
+      "section_id": "testimonials",
+      "name": "Client Proof & Results",
+      "type": "High-Impact Testimonial Grid",
+      "features": [
+        "Executive founder quotes with real photo avatars",
+        "Verified badges and ROI callout cards"
+      ]
+    },
+    {
+      "section_id": "faq",
+      "name": "FAQ Accordion",
+      "type": "Radix Collapsible Accordion",
+      "features": [
+        "Questions covering delivery timeline, design ownership, Framer vs Webflow, maintenance plans, and revision policy"
+      ]
+    },
+    {
+      "section_id": "contact",
+      "name": "Lead-Gen Contact Form",
+      "type": "Interactive Project Calculator & Form",
+      "features": [
+        "Budget range selector pills ($2k-$5k, $5k-$10k, $10k+)",
+        "Service type checkable chips",
+        "Name, Email, Website, Project Details inputs",
+        "Frontend validation with clean inline error messaging",
+        "Animated success state upon submit with estimated response time notice"
+      ]
+    },
+    {
+      "section_id": "footer",
+      "name": "Footer",
+      "type": "Minimalist High-Impact Footer",
+      "features": [
+        "Massive frudio brand type watermark",
+        "Quick links, social icons, live status indicator ('🟢 Available for new projects Q3 2026')",
+        "Copyright and privacy notes"
+      ]
+    }
+  ],
+  "testing_and_accessibility": {
+    "data_testid_requirement": "EVERY interactive element (buttons, tabs, form inputs, accordion triggers, card links) MUST include data-testid attributes in kebab-case (e.g., data-testid='hero-cta-button', data-testid='contact-submit-button')",
+    "contrast_compliance": "WCAG AA 4.5:1 text ratio strictly maintained",
+    "reduced_motion": "Framer motion components check for prefers-reduced-motion"
+  }
+}
